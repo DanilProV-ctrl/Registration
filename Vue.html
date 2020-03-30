@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="lib/Vue.css">
+    <script src="lib/Javas.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>{{lg | cap}} : Login</p>
+        <p>{{ps | cap}} : Password</p>
+        <p>{{rps | cap}} : RePassword</p>
+        <form action="" method="POST" name="test" id="form" onsubmit="reg(this)">
+            <input type="text" name="Login" id="Login" @input="lg = $event.target.value" placeholder="Login">
+            <label id="Login_1" for="Login">: Login</label>
+
+            <input type="text" name="Password" id="Password1" @input="ps = $event.target.value" placeholder="Password">
+            <label id="Password_1" for="Password1">: Password</label>
+
+            <input type="text" name="RePassword" id="Password_10" @input="rps = $event.target.value" placeholder="RePassword">
+            <label id="Password_2" for="Password_10">: RePassword</label>
+
+            <input type="button" id="btn" value="Enter..." name="submit" onclick="reg(document.getElementById('form'))">
+
+        </form>
+    </div>
+    <script src="lib/Vue.js"></script>
+</body>
+
+
+</html>

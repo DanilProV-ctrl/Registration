@@ -1,0 +1,59 @@
+#Login {
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    width: 50%;
+}
+
+#Login_1 {
+    position: absolute;
+    top: 35%;
+    right: 26%;
+}
+
+#Password1 {
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    width: 50%;
+}
+
+#Password_1 {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+}
+
+#Password_10 {
+    position: absolute;
+    top: 55%;
+    right: 30%;
+    width: 50%;
+}
+
+#Password_2 {
+    position: absolute;
+    top: 55%;
+    right: 24%;
+}
+
+#btn {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    width: 50%;
+    height: 50px;
+}
+
+body {
+    background-color: gainsboro;
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+}
